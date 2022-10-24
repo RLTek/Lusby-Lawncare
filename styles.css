@@ -132,6 +132,11 @@ header{
 @media only screen and (max-width: 580px), (position: landscape){
     .navbar{
         font-size: 1rem;
+        justify-content: center;
+    }
+    .navbar ul{
+        display: none;
+    
     }
     .mission-content{
         width: 100%;
@@ -155,6 +160,14 @@ header{
     .contact{
         display: flex;
         flex-direction: column;
+        justify-content: start;
+    }
+    .contact-item{
+        width: 6rem;
+    }
+    .contact-item img{
+        width: 5rem;
+        height: 5rem;
     }
 }
 @media only screen and (max-width:800px){
