@@ -135,7 +135,7 @@ header{
     }
     .mission-content{
         width: 100%;
-       
+        height: auto;
     }
     #owner{
         display: flex;
